@@ -1,0 +1,10 @@
+require("rspec")
+require("sleep_in")
+
+describe("Time#sleep_in") do
+  it("User inputs a date and returns a date object")do
+    date = Time.new(2014, 07, 11)
+    expect((date.sleep_in().to(eq()))
+  end
+end
+  
